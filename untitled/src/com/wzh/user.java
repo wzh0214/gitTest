@@ -7,6 +7,8 @@ package com.wzh;
 public class user {
     private String userName;
 
+    private Integer age;
+
     public String getUserName() {
         return userName;
     }
@@ -14,4 +16,6 @@ public class user {
     public void setUserName(String userName) {
         this.userName = userName;
     }
+
+
 }
